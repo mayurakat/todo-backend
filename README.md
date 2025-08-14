@@ -47,12 +47,13 @@ todo_openai_project/
    pip install -r requirements.txt
    ```
 
-4. **Set up the database**:
+4. **Set up the database**:```used postgresql```
+5. **Run Migrations**
    ```
    python manage.py migrate
    ```
 
-5. **Run the development server**:
+6. **Run the development server**:
    ```
    python manage.py runserver
    ```
