@@ -15,7 +15,7 @@ def get_ai_task_suggestions(email_list):
         You are a project assistant.
         Read the email content and suggest only **one** most important actionable task.
         Email Content: {email_content}
-        return only this Format json: {{Task: <description>,deadline: yyyy-mm-dd,priority: <high/medium/low>}}
+        return only this Format json: {{task: <description>,deadline: yyyy-mm-dd,priority: <high/medium/low>}}
         """
 
         response = client.chat.completions.create(
